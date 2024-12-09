@@ -109,24 +109,34 @@ h4{
 
 .main-content {
   background-color: white;
-  padding: 1.25rem;
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  min-height: 90vh;
+  min-height: 100vh;
   overflow-y: auto;
 }
 
+.col-md-10 {
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+.col-12 {
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+
 .big-box {
-  background-color: white;
+  background: url('html/6.png') no-repeat center center !important;
   flex-grow: 1;
   flex-direction: column;
-  border-radius: 0.9375rem;
   align-items: center;
   display: flex;
   overflow-y: auto;
   justify-content: center;
   font-family: "Acme";
+  background-size: cover !important;
 }
 
 .d-none {
@@ -189,7 +199,6 @@ h4{
   display: flex;
   flex-direction: column;
   list-style-type: none;
-  padding: 20px;
   margin: 0;
   width: 100%;
 }
@@ -224,26 +233,7 @@ h4{
   color: #333;
 }
 
-/* Index page specific - black background */
-.main-content.index-page {
-    background-color: rgb(0, 0, 0) !important;
-}
-
-/* Container fluid for index page */
-.index-page .container-fluid {
-    background-color: rgba(0, 0, 0, 0.9) !important;
-}
-
-/* Other pages - white background */
-.main-content:not(.index-page) {
-    background-color: white !important;
-}
-
-/* Container fluid for other pages */
-.container-fluid:not(.index-page .container-fluid) {
-    background-color: white !important;
-}
-
 .big-box h1 {
+    margin-top: 20px;
     font-family: Georgia;
 }

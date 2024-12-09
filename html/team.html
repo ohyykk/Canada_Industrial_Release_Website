@@ -29,86 +29,8 @@
     href="https://fonts.googleapis.com/css?family=Acme"
     />
     <link rel="stylesheet" href="../style.css" />
-    <style>
-      body {
-        margin: 0;
-        padding: 0;
-        background: #f5f5f5;
-        position: relative;
-      } 
-
-      body::before {
-        content: '';
-        position: fixed;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        background: rgba(255, 255, 255, 0.65);
-        z-index: 0;
-      }
-
-      .container-fluid {
-        position: relative;
-        z-index: 1;
-        background-color: transparent !important;
-      }
-
-      .main-content {
-        background-color: transparent !important;
-      }
-
-      .team-page {
-        background-color: black !important;
-      }
-
-      /* Team page specific - light grey background */
-      .main-content.team-page {
-          background-color: black !important;
-      }
-
-      /* Container fluid for team page */
-      .team-page .container-fluid {
-          background-color: black !important;
-      }
-
-      /* Make the big-box have background image */
-      .team-page .big-box {
-          background: url('6.jpg') no-repeat center center !important;
-          background-size: cover !important;
-          position: relative !important;
-      }
-
-      /* Add a semi-transparent overlay to make content readable */
-      .team-page .big-box::before {
-          content: '';
-          position: absolute;
-          top: 0;
-          right: 0;
-          bottom: 0;
-          left: 0;
-          background: rgba(255, 255, 255, 0.75);
-          z-index: 0;
-      }
-
-      /* Make sure content stays above the overlay */
-      .team-page .big-box > * {
-          position: relative;
-          z-index: 1;
-      }
-    </style>
   </head>
   <body>
-    <div style="
-      position: fixed; 
-      top: 0; 
-      left: 0; 
-      width: 100%; 
-      height: 100%; 
-      background: #f5f5f5;
-      z-index: -1;">
-    </div>
-    
     <nav class="navbar top-bar top-bar-item">
       <div
         class="collapse navbar-collapse top-bar-item d-md-block"
@@ -151,9 +73,8 @@
 
         </nav>
 
-        <div class="col-md-10 main-content team-page">
-          <div class="row flex-nowrap mb-3">
-            <div class="col-12 d-flex flex-column">
+        <div class="col-md-10 main-content">
+          <div class="col-12 d-flex flex-column">
               <div class="big-box">
                 <h1>Meet our team</h1>
                     <ul class="team-list">
@@ -212,7 +133,6 @@
                         </li>
                   </ul>
               </div>
-            </div>
           </div>
         </div>
       </div>
