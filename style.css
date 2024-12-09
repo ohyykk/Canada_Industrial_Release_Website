@@ -236,4 +236,5 @@ h4{
 .big-box h1 {
     margin-top: 20px;
     font-family: Georgia;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
