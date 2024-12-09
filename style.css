@@ -139,6 +139,31 @@ h4{
   background-size: cover !important;
 }
 
+/* Specific background for about page */
+.about-page .big-box {
+  background: url('html/7.jpg') no-repeat center center !important;
+  background-size: cover !important;
+  position: relative;
+}
+
+/* Add a semi-transparent overlay */
+.about-page .big-box::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.6); /* White overlay with 70% opacity */
+  z-index: 1;
+}
+
+/* Ensure content stays above the overlay */
+.about-page .big-box > * {
+  position: relative;
+  z-index: 2;
+}
+
 .d-none {
   display: none; /* Hide the file input */
 }
