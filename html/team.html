@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toxi-Can</title>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Bungee Shade"
+    />
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Lacquer"
+    />
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Acme"
+    />
+    <link rel="stylesheet" href="../style.css" />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background: #f5f5f5;
+        position: relative;
+      } 
+
+      body::before {
+        content: '';
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(255, 255, 255, 0.65);
+        z-index: 0;
+      }
+
+      .container-fluid {
+        position: relative;
+        z-index: 1;
+        background-color: transparent !important;
+      }
+
+      .main-content {
+        background-color: transparent !important;
+      }
+
+      .team-page {
+        background-color: black !important;
+      }
+
+      /* Team page specific - light grey background */
+      .main-content.team-page {
+          background-color: black !important;
+      }
+
+      /* Container fluid for team page */
+      .team-page .container-fluid {
+          background-color: black !important;
+      }
+
+      /* Make the big-box have background image */
+      .team-page .big-box {
+          background: url('6.jpg') no-repeat center center !important;
+          background-size: cover !important;
+          position: relative !important;
+      }
+
+      /* Add a semi-transparent overlay to make content readable */
+      .team-page .big-box::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          background: rgba(255, 255, 255, 0.75);
+          z-index: 0;
+      }
+
+      /* Make sure content stays above the overlay */
+      .team-page .big-box > * {
+          position: relative;
+          z-index: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="
+      position: fixed; 
+      top: 0; 
+      left: 0; 
+      width: 100%; 
+      height: 100%; 
+      background: #f5f5f5;
+      z-index: -1;">
+    </div>
+    
+    <nav class="navbar top-bar top-bar-item">
+      <div
+        class="collapse navbar-collapse top-bar-item d-md-block"
+        id="navbarSupportedContent"
+      >
+        <ul class="navbar-nav mr-auto top-bar-item">
+          <li class="nav-item">
+            <a class="nav-link top-bar-button toggle-sidebar-button"
+              ><i class="fas fa-bars"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="col-md-2 d-none d-md-block sidebar">
+          <div class="logo-dashboard">
+            <h1>Toxi-Can</h1>
+          </div>
+          <div class="sidebar-header">
+          </div>
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Introduction</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="map.html">Facility Map</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pie.html">Environmental Emissions Breakdown</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="human.html">Human Body Visualization</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="team.html">Meet the team</a>
+            </li>
+          </ul>
+
+        </nav>
+
+        <div class="col-md-10 main-content team-page">
+          <div class="row flex-nowrap mb-3">
+            <div class="col-12 d-flex flex-column">
+              <div class="big-box">
+                <h1>Meet our team</h1>
+                    <ul class="team-list">
+                        <li>
+                          <img src="../meet_the_team/kiki.jpg" alt="Charlie Brown">
+                          <div class="text-content">
+                            <p><strong>Yingke(Kiki) He</strong></p>
+                            <p style="font-style: italic;">kiki.he@mail.utoronto.ca</p>
+                            <p style="font-size: 0.9em; font-family: 'Acme', sans-serif; border: 1px solid #e0e0e0; padding: 2px 5px; display: inline-block; margin: 2px; box-shadow: 2px 2px 4px rgba(0,0,0,0.2); border-radius: 3px; background-color: #f5f5f5; width: fit-content;">Scrollytelling</p>
+                            <p style="font-size: 0.9em; font-family: 'Acme', sans-serif; border: 1px solid #e0e0e0; padding: 2px 5px; display: inline-block; margin: 2px; box-shadow: 2px 2px 4px rgba(0,0,0,0.2); border-radius: 3px; background-color: #f5f5f5; width: fit-content;">Website Format</p>
+                            <p style="font-size: 0.9em; font-family: 'Acme', sans-serif; border: 1px solid #e0e0e0; padding: 2px 5px; display: inline-block; margin: 2px; box-shadow: 2px 2px 4px rgba(0,0,0,0.2); border-radius: 3px; background-color: #f5f5f5; width: fit-content;">Visualization Finalizations</p>
+                            <br>
+                            <p style="font-size: 15px">Hi! I'm Kiki. I'm a senior at the University of Toronto, double majoring in Statistics and Mathematics. My interests lie in human-machine interaction and data visualization. I'm currently a research assistant in Harvey Anderson's Lab. Previously, I was an ROP student at the Intelligent Adaptive Interventions Lab and a student researcher at Peking University. </p>
+                          </div>
+                        </li>
+                        <li>
+                          <img src="../meet_the_team/kevin.jpg" alt="Diana Ross">
+                          <div class="text-content">
+                              <p><strong>Kevin You</strong></p>
+                              <p style="font-style: italic;">kevin.you@mail.utoronto.ca</p>
+                              <p style="font-size: 0.9em; font-family: 'Acme', sans-serif; border: 1px solid #e0e0e0; padding: 2px 5px; display: inline-block; margin: 2px; box-shadow: 2px 2px 4px rgba(0,0,0,0.2); border-radius: 3px; background-color: #f5f5f5; width: fit-content;">Facility Map</p>
+                              <p style="font-size: 0.9em; font-family: 'Acme', sans-serif; border: 1px solid #e0e0e0; padding: 2px 5px; display: inline-block; margin: 2px; box-shadow: 2px 2px 4px rgba(0,0,0,0.2); border-radius: 3px; background-color: #f5f5f5; width: fit-content;">Website Framework</p>
+                              <br>
+                              <p style="font-size: 15px">Hi there 👋
+                                I'm Yiyang You! You can also call me Kevin.
+                                - Currently: Undergraduate CS Student at the University of Toronto 🍁. Research Assistant @AI Physics and Safety Lab UofT
+                                - Previously: Machine Learning Research Assistant with Professor Chi-Guhn Lee, Web Developer @Alpha Education, Software Developer @TDS News.</p>
+                          </div>
+                        </li>
+                          <li>
+                          <img src="../meet_the_team/hilary.jpg" alt="Alice Smith">
+                          <div class="text-content">
+                              <p><strong>Hilary Zou</strong></p>
+                              <p style="font-style: italic;">hilary.zou@mail.utoronto.ca</p>
+                              <p style="font-size: 0.9em; font-family: 'Acme', sans-serif; border: 1px solid #e0e0e0; padding: 2px 5px; display: inline-block; margin: 2px; box-shadow: 2px 2px 4px rgba(0,0,0,0.2); border-radius: 3px; background-color: #f5f5f5; width: fit-content;">Environmental Emissions Breakdown</p>
+                              <br>
+                              <p style="font-size: 15px">A third year UOfT student,majoring in statistics and work & organization studies.
+                              </p>
+                          </div>
+                        </li>
+                        <li>
+                            <img src="../meet_the_team/portrait2.webp" alt="Bob Johnson">
+                            <div class="text-content">
+                                <p><strong>Yifan Zhi</strong></p>
+                                <p style="font-style: italic;">yifan.zhi@mail.utoronto.ca</p>
+                                <p style="font-size: 0.9em; font-family: 'Acme', sans-serif; border: 1px solid #e0e0e0; padding: 2px 5px; display: inline-block; margin: 2px; box-shadow: 2px 2px 4px rgba(0,0,0,0.2); border-radius: 3px; background-color: #f5f5f5; width: fit-content;">Human Body Visualization</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="../meet_the_team/portrait5.webp" alt="Edward White">
+                            <div class="text-content">
+                                <p><strong>Ziheng Zhong</strong></p>
+                                <p style="font-style: italic;">ziheng.zhong@mail.utoronto.ca</p>
+                                <p style="font-size: 0.9em; font-family: 'Acme', sans-serif; border: 1px solid #e0e0e0; padding: 2px 5px; display: inline-block; margin: 2px; box-shadow: 2px 2px 4px rgba(0,0,0,0.2); border-radius: 3px; background-color: #f5f5f5; width: fit-content;">Facility Map</p>
+                            </div>
+                        </li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".toggle-sidebar-button").click(function () {
+          $(".sidebar").toggleClass("active");
+        });
+      });
+    </script>
+  </body>
+</html>
+

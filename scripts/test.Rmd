@@ -1,0 +1,178 @@
+```{r}
+library(sf)
+library(dplyr)
+library(leaflet)
+library(htmlwidgets)
+library(readr)
+library(here)
+library(rmapshaper)
+library(shiny)
+
+# Load province shapefile and simplify geometry for performance
+shapefile_path <- here("lpr_000b16a_e", "lpr_000b16a_e.shp")
+provinces <- st_read(shapefile_path) %>%
+  ms_simplify(keep = 0.05, keep_shapes = TRUE) %>%
+  st_transform(crs = 4326) %>%
+  mutate(
+    PREABBR = toupper(PREABBR),  # Ensure uppercase for consistency
+    PREABBR = case_when(         # Handle special cases if necessary
+      PREABBR == "N.L." ~ "NL",
+      PREABBR == "P.E.I." ~ "PE",
+      PREABBR == "N.S." ~ "NS",
+      PREABBR == "N.B." ~ "NB",
+      PREABBR == "QUE." ~ "QC",
+      PREABBR == "ONT." ~ "ON",
+      PREABBR == "MAN." ~ "MB",
+      PREABBR == "SASK." ~ "SK",
+      PREABBR == "ALTA." ~ "AB",
+      PREABBR == "B.C." ~ "BC",
+      PREABBR == "Y.T." ~ "YT",
+      PREABBR == "N.W.T." ~ "NT",
+      PREABBR == "NVT." ~ "NU",  # Example corrections for Nunavut
+      TRUE ~ PREABBR             # Keep others as is
+    )
+  )
+
+# Load and filter emission data
+coor_data <- read_csv(here("data", "analysis_data", "map_coordinate_data.csv"), show_col_types = FALSE)
+cleaned_data <- read_csv(here("data", "analysis_data", "map_cleaned_data.csv"), show_col_types = FALSE)
+
+cleaned_data <- cleaned_data %>%
+  mutate(
+    quantity = quantity / 1e6,
+    unit = "tons"
+  )
+
+cleaned_data <- cleaned_data %>%
+  mutate(facility = tolower(facility)) %>%
+  group_by(NPRI_id, province, unit, facility, substance) %>%
+  summarise(quantity = sum(quantity, na.rm = TRUE), .groups = "drop")
+
+combined_data <- cleaned_data %>%
+  inner_join(coor_data, by = c("NPRI_id", "province")) %>%
+  filter(!is.na(latitude) & !is.na(longitude))
+
+aggregated_data <- combined_data %>%
+  group_by(facility, province, latitude, longitude) %>%
+  summarise(
+    substances_info = paste(
+      "Substance: ", substance, "<br>",
+      "Emission Quantity: ", quantity, unit, collapse = "<br><br>"
+    ),
+    total_quantity = sum(quantity, na.rm = TRUE),
+    .groups = "drop"
+  )
+
+scatter_data_sf <- st_as_sf(aggregated_data, coords = c("longitude", "latitude"), crs = 4326)
+
+province_data <- combined_data %>%
+  group_by(province) %>%
+  summarise(total_quantity = sum(quantity, na.rm = TRUE), .groups = "drop")
+
+provinces_with_data <- provinces %>%
+  left_join(province_data, by = c("PREABBR" = "province"))
+
+# Save the datasets
+saveRDS(aggregated_data, here("map_combined", "aggregated_data.rds"))
+saveRDS(province_data, here("map_combined", "province_data.rds"))
+saveRDS(provinces_with_data, here("map_combined", "provinces_with_data.rds"))
+saveRDS(scatter_data_sf, here("map_combined", "scatter_data_sf.rds"))
+
+
+# Define bounding box for Canada
+canada_bounds <- list(
+  lng1 = -141,  # Westernmost longitude
+  lat1 = 41,    # Southernmost latitude
+  lng2 = -52,   # Easternmost longitude
+  lat2 = 83     # Northernmost latitude
+)
+
+# Shiny UI
+ui <- fluidPage(
+  leafletOutput("map", height = "600px"),
+  br(),
+  tags$div(
+    id = "info-box",
+    style = "padding: 10px; border: 1px solid #ccc; background: #f9f9f9; display: inline-block;",
+    tags$p("Province: ", tags$span(textOutput("province_name", inline = TRUE))),
+    tags$p("Total Emission: ", tags$span(textOutput("province_emission", inline = TRUE)))
+  )
+)
+
+# Shiny Server
+server <- function(input, output, session) {
+  # Reactive value to store province details
+  selected_province <- reactiveValues(
+    name = "Select a province",
+    emission = "N/A"
+  )
+
+  # Render the leaflet map
+  output$map <- renderLeaflet({
+    leaflet(options = leafletOptions(minZoom = 6)) %>%  # Set minimum zoom level
+      addTiles() %>%
+      setView(lng = -95, lat = 60, zoom = 6) %>%  # Default view
+      setMaxBounds(
+        lng1 = canada_bounds$lng1,
+        lat1 = canada_bounds$lat1,
+        lng2 = canada_bounds$lng2,
+        lat2 = canada_bounds$lat2
+      ) %>%
+      addPolygons(
+        data = provinces_with_data,
+        fillColor = ~colorNumeric("YlOrRd", total_quantity)(total_quantity),
+        color = "white", weight = 1, fillOpacity = 0.7,
+        highlightOptions = highlightOptions(weight = 3, color = "blue", bringToFront = TRUE),
+        layerId = ~PREABBR  # Assign unique IDs for provinces
+      ) %>%
+      addLayersControl(
+        overlayGroups = c("scatter"),
+        options = layersControlOptions(collapsed = FALSE)
+      )
+  })
+
+  # Update the info box dynamically
+  output$province_name <- renderText({
+    selected_province$name
+  })
+
+  output$province_emission <- renderText({
+    selected_province$emission
+  })
+
+  # Handle click event on province polygons
+  observeEvent(input$map_shape_click, {
+    click <- input$map_shape_click
+    province_clicked <- click$id  # Province ID (PREABBR)
+    total_emission <- provinces_with_data %>% filter(PREABBR == province_clicked) %>% pull(total_quantity)
+
+    # Update selected province details
+    selected_province$name <- province_clicked
+    selected_province$emission <- paste(total_emission, "grams")
+
+    # Filter scatter data and show scatter points
+    filtered_data <- aggregated_data %>% filter(province == province_clicked)
+    scatter_data <- st_as_sf(filtered_data, coords = c("longitude", "latitude"), crs = 4326)
+
+    leafletProxy("map") %>%
+      clearGroup("scatter") %>%
+      addCircleMarkers(
+        data = scatter_data,
+        radius = ~log(total_quantity + 1) * 0.6,
+        color = "#0073C2FF", stroke = FALSE, fillOpacity = 0.6,
+        clusterOptions = markerClusterOptions(disableClusteringAtZoom = 18),
+        popup = ~paste(  # Popups not required for provinces, handled in the info box
+          "Facility: ", facility, "<br>",
+          "Province: ", province, "<br><br>",
+          substances_info
+        ),
+        group = "scatter"
+      ) %>%
+      showGroup("scatter") %>%
+      fitBounds(click$bbox[1], click$bbox[2], click$bbox[3], click$bbox[4])
+  })
+}
+
+# Run the Shiny app
+shinyApp(ui, server)
+```

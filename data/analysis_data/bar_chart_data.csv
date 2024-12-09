@@ -1,0 +1,21 @@
+substance,emit_way,unit,quantity
+Sulphur dioxide,Releases to Air,grams,25585539631176
+Carbon monoxide,Releases to Air,grams,19128328578114
+Nitrogen oxides (expressed as nitrogen dioxide),Releases to Air,grams,13873598019677
+Total particulate matter,Releases to Air,grams,7094999075553
+Volatile Organic Compounds (VOCs),Releases to Air,grams,4753349655236
+Ethylene glycol,Releases to Land,grams,176824718398
+Zinc (and its compounds),Releases to Land,grams,18609577181
+Ammonia (total),Releases to Land,grams,9143822398
+Copper (and its compounds),Releases to Land,grams,7704967077
+Manganese (and its compounds),Releases to Land,grams,7097797918
+Nitrate ion in solution at pH >= 6.0,Releases to Water Bodies,grams,1407536404126
+Ammonia (total),Releases to Water Bodies,grams,1101291360791
+Phosphorus (total),Releases to Water Bodies,grams,151304949691
+Sulphuric acid,Releases to Water Bodies,grams,96377814323
+Methanol,Releases to Water Bodies,grams,73333339127
+Ammonia (total),Sum of release to all media (<1tonne),grams,845786462
+Toluene,Sum of release to all media (<1tonne),grams,671678138
+Xylene (all isomers),Sum of release to all media (<1tonne),grams,518617178
+Methanol,Sum of release to all media (<1tonne),grams,456361388
+n-Hexane,Sum of release to all media (<1tonne),grams,424967179

@@ -1,0 +1,249 @@
+body {
+  padding-top: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.container-fluid .row {
+  height: 100%;
+}
+
+.sidebar {
+  background-color: #020c1c;
+  padding: 1.25rem 0;
+  color: white;
+  min-height: 100vh;
+}
+
+.top-bar {
+  background-color: #7e8397 !important;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 40px;
+  padding-top: 5px;
+  z-index: 10000;
+ overflow: unset !important;
+}
+
+h4{
+  margin:1rem;
+}
+
+
+/* Apply similar styles to top-bar buttons */
+.top-bar-button{
+  float: left !important;
+  color: white !important; /* Match text color */
+  background-color: #8c909e; /* Match sidebar button background color */
+  padding: 0.3125rem 1.25rem; /* Adjust padding to match sidebar */
+  margin-right: 1.25rem; /* Provide some margin around the buttons */
+  border-radius: 0.625rem; /* Match the border-radius for rounded corners */
+  text-decoration: none; /* Remove underline from links */
+  display: inline-block; /* Needed to apply padding and margin correctly */
+}
+
+.top-bar-button:hover{
+  background-color: #4f5266; /* Slightly lighter color on hover, similar to sidebar behavior */
+  text-decoration: none; /* Ensure no underline on hover */
+}
+
+.fa-bars {
+  color: white;
+  font-size: 20px !important;
+}
+
+.sidebar .nav-link {
+  color: white;
+  margin: 0.625rem 0.9375rem;
+  border-radius: 0.625rem;
+}
+
+.sidebar .nav-link:hover {
+  background-color: #50525e;
+}
+
+.active {
+  background-color: #474b61;
+}
+
+.logo-dashboard {
+  text-align: center;
+  font-family: "Bungee Shade";
+
+  margin-bottom: 2rem;
+}
+
+.container {
+  margin-top: 5rem;
+}
+
+.sidebar-header {
+  text-align: center;
+  padding-bottom: 0.9375rem;
+  font-size: 1.25rem;
+  color: #ffffff !important;
+  font-family: "Lacquer";
+}
+
+.nav-item {
+  text-align: center;
+  font-family: "Acme";
+}
+
+.sidebar .nav {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 0.625rem 0;
+  background-color: #757b96;
+}
+
+.main-content {
+  background-color: white;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  min-height: 90vh;
+  overflow-y: auto;
+}
+
+.big-box {
+  background-color: white;
+  flex-grow: 1;
+  flex-direction: column;
+  border-radius: 0.9375rem;
+  align-items: center;
+  display: flex;
+  overflow-y: auto;
+  justify-content: center;
+  font-family: "Acme";
+}
+
+.d-none {
+  display: none; /* Hide the file input */
+}
+
+
+@media (min-width: 768px) {
+  .toggle-schedule-button {
+    display: none !important;
+  }
+  .top-bar-item {
+    display: none !important;
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    padding-top: 40px;
+  }
+
+  .sidebar.active {
+    display: block !important; /* Show the sidebar */
+    position: fixed; /* Position fixed to stay in place during scroll */
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full screen height */
+    overflow-y: auto; /* Enable scrolling */
+    background-color: #5c6172; /* Sidebar background color */
+    z-index: 1001; /* Ensure it's above other content */
+    padding-top: 40px; /* Adjust based on your top bar height */
+  }
+
+  .top-bar-item {
+    display: flex !important;
+  }
+
+  .sidebar {
+    display: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0);
+    z-index: 1001;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .toggle-schedule-button {
+    display: flex !important;
+  }
+
+}
+
+.team-list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 20px;
+  margin: 0;
+  width: 100%;
+}
+
+.team-list li {
+  display: flex;
+  align-items: center;
+  margin: 30px 0;
+  text-align: left;
+  width: 100%;
+  padding: 20px;
+}
+
+.team-list img {
+  width: 400px;
+  height: 400px;
+  border-radius: 0;
+  object-fit: cover;
+  margin-right: 40px;
+}
+
+.team-list .text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.team-list p {
+  margin: 5px 0;
+  font-size: 1.2rem;
+  font-family: Georgia, serif;
+  color: #333;
+}
+
+/* Index page specific - black background */
+.main-content.index-page {
+    background-color: rgb(0, 0, 0) !important;
+}
+
+/* Container fluid for index page */
+.index-page .container-fluid {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+}
+
+/* Other pages - white background */
+.main-content:not(.index-page) {
+    background-color: white !important;
+}
+
+/* Container fluid for other pages */
+.container-fluid:not(.index-page .container-fluid) {
+    background-color: white !important;
+}
+
+.big-box h1 {
+    font-family: Georgia;
+}

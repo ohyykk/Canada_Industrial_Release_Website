@@ -1,0 +1,87 @@
+```{r}
+library(sf)
+library(dplyr)
+library(leaflet)
+library(htmlwidgets)
+library(readr)
+library(here)
+library(rmapshaper)
+
+# Load the shapefile
+shapefile_path <- here("lpr_000b16a_e", "lpr_000b16a_e.shp")
+provinces <- st_read(shapefile_path)
+
+# Simplify the shapefile geometry to improve performance
+provinces <- ms_simplify(provinces, keep = 0.05, keep_shapes = TRUE)  # Adjust 'keep' as needed
+
+# Transform the shapefile column for consistency
+provinces <- provinces %>%
+  mutate(
+    PREABBR = toupper(PREABBR),  # Ensure uppercase for consistency
+    PREABBR = case_when(         # Handle special cases if necessary
+      PREABBR == "N.L." ~ "NL",
+      PREABBR == "P.E.I." ~ "PE",
+      PREABBR == "N.S." ~ "NS",
+      PREABBR == "N.B." ~ "NB",
+      PREABBR == "QUE." ~ "QC",
+      PREABBR == "ONT." ~ "ON",
+      PREABBR == "MAN." ~ "MB",
+      PREABBR == "SASK." ~ "SK",
+      PREABBR == "ALTA." ~ "AB",
+      PREABBR == "B.C." ~ "BC",
+      PREABBR == "Y.T." ~ "YT",
+      PREABBR == "N.W.T." ~ "NT",
+      PREABBR == "NVT." ~ "NU",  # Example corrections for Nunavut
+      TRUE ~ PREABBR             # Keep others as is
+    )
+  )
+
+# Transform to WGS84 (Leaflet requires long-lat CRS)
+provinces <- st_transform(provinces, crs = 4326)
+```
+
+```{r}
+
+# Load province data
+province_data <- read_csv(here("data", "analysis_data", "map_by_province_data.csv"),
+                          show_col_types = FALSE)
+
+# Join shapefile with emissions data
+provinces_with_data <- provinces %>%
+  left_join(province_data, by = c("PREABBR" = "province"))
+
+# Reduce columns to those needed for mapping to improve performance
+provinces_with_data <- provinces_with_data %>%
+  select(PREABBR, geometry, total_quantity)
+
+# Create a color palette for the heatmap
+palette <- colorNumeric(
+  palette = "YlOrRd",  # Yellow-Orange-Red gradient
+  domain = provinces_with_data$total_quantity  # Range of total_quantity values
+)
+
+# Create the leaflet map
+province_heatmap <- leaflet(provinces_with_data) %>%
+  addTiles() %>%
+  addPolygons(
+    fillColor = ~palette(total_quantity),  # Apply color based on total_quantity
+    weight = 1,  # Border line weight
+    color = "white",  # Border color
+    fillOpacity = 0.7,  # Transparency of the fill
+    popup = ~paste(
+      "<strong>Province:</strong> ", PREABBR, "<br>",
+      "<strong>Total Emissions:</strong> ", total_quantity, " grams"
+    )
+  ) %>%
+  addLegend(
+    pal = palette,
+    values = provinces_with_data$total_quantity,
+    position = "bottomright",
+    title = "Total Emissions (grams)",
+    opacity = 0.7
+  )
+
+# Save the map as an HTML file with external resources to reduce memory usage
+saveWidget(province_heatmap, file = here("plots", "province_heatmap.html"), selfcontained = FALSE)
+
+```

@@ -1,0 +1,780 @@
+emit_way,substance,unit,total_quantity
+air,"1,1,2,2-Tetrachloroethane",grams,3202000
+air,"1,1,2-Trichloroethane",grams,23478000
+air,"1,1-Methylenebis(4-isocyanatocyclohexane)",grams,7000
+air,"1,2,4-Trichlorobenzene",grams,41820552
+air,"1,2,4-Trimethylbenzene",grams,19560249483
+air,"1,2-Butylene oxide",grams,204000
+air,"1,2-Dichloroethane",grams,179527471
+air,"1,2-Dichloropropane",grams,10400
+air,"1,3-Butadiene",grams,2302511949
+air,"1,4-Benzenediamine, N,N'-mixed phenyl and tolyl derivatives",grams,6697.76
+air,"1,4-Dioxane",grams,103577700
+air,1-Nitropyrene,grams,28119.199999999997
+air,"2,4-Dinitrotoluene",grams,23080000
+air,"2,6-Di-t-butyl-4-methylphenol",grams,11854000
+air,2-(2-Methoxyethoxy)ethanol,grams,179797
+air,2-Butoxyethanol,grams,15944369713
+air,2-Ethoxyethanol,grams,110233100
+air,2-Ethoxyethyl acetate,grams,203738000
+air,2-Mercaptobenzothiazole,grams,15502100
+air,2-Methoxyethanol,grams,125038600
+air,"2-Propanone, reaction products with diphenylamine",grams,607032.902
+air,3-Methylcholanthrene,grams,10447.84900000001
+air,5-Methylchrysene,grams,5429.500000000002
+air,"7,12-Dimethylbenz[a]anthracene",grams,28989.368
+air,"7H-Dibenzo[c,g]carbazole",grams,3177220.1259999992
+air,Acenaphthene,grams,131769305.254
+air,Acenaphthylene,grams,381198795.2440003
+air,Acetaldehyde,grams,23314205409
+air,Acetone,grams,22629093000
+air,Acetonitrile,grams,943786100
+air,Acetophenone,grams,115238400
+air,Acrolein,grams,2438424698
+air,Acrylamide,grams,6904459
+air,Acrylic acid (and its salts),grams,56849486
+air,Acrylonitrile,grams,272461844.7
+air,"Alkanes, C10-13, chloro",grams,0
+air,Allyl alcohol,grams,2649500
+air,Aluminum (fume or dust only),grams,5686670127
+air,Aluminum oxide (fibrous forms only),grams,60282344
+air,Ammonia (total),grams,514586112117
+air,Ammonium nitrate (solution),grams,547148000
+air,Ammonium sulfate (solution),grams,255298000
+air,Aniline (and its salts),grams,1602200
+air,Anthracene,grams,282357461.924
+air,Antimony (and its compounds),grams,141187813
+air,Arsenic (and its compounds),grams,2643847022.3199997
+air,Asbestos,grams,707000
+air,Asbestos (friable form only),grams,4914200
+air,Benz[a]anthracene,grams,231356706.96
+air,Benzene,grams,30128774184
+air,Benzo[a]pyrene,grams,169453062.95499986
+air,Benzo[b]fluoranthene,grams,333114312.11100054
+air,Benzo[e]pyrene,grams,262347738.99599996
+air,Benzo[ghi]perylene,grams,125399148.20000009
+air,Benzo[j]fluoranthene,grams,61278281.453000054
+air,Benzo[k]fluoranthene,grams,119669867.60399985
+air,Benzoyl peroxide,grams,145060
+air,Benzyl chloride,grams,76000
+air,Biphenyl,grams,238913510
+air,Bis(2-ethylhexyl) adipate,grams,64148500
+air,Bis(2-ethylhexyl) phthalate,grams,227142300
+air,Bisphenol A,grams,49742997.4
+air,Boron trifluoride,grams,1000
+air,Bromine,grams,268200000
+air,Bromomethane,grams,72994283
+air,Butyl acrylate,grams,40165640
+air,Butyl benzyl phthalate,grams,207415302
+air,Butyraldehyde,grams,40719000
+air,C.I. Basic Red 1,grams,100
+air,C.I. Food Red 15,grams,0
+air,CFC-11,grams,1087000
+air,CFC-114,grams,2047000
+air,CFC-12,grams,11740669
+air,Cadmium (and its compounds),grams,666046549.0070003
+air,Calcium fluoride,grams,469437312
+air,Carbon disulphide,grams,59848133273
+air,Carbon monoxide,grams,19128328578114
+air,Carbon tetrachloride,grams,57594632
+air,Carbonyl sulphide,grams,83083395053
+air,Catechol,grams,11419
+air,"Chlorinated alkanes, medium-chain, CnHxCl(2n+2x), 14 = n = 17",grams,157660
+air,Chlorine,grams,19305476906
+air,Chlorine dioxide,grams,18482156172
+air,Chlorobenzene,grams,8775391
+air,Chloroethane,grams,2356791000
+air,Chloroform,grams,2594361563
+air,Chloromethane,grams,12130319200
+air,Chromium (and its compounds),grams,922562987
+air,Chrysene,grams,242191800.08399978
+air,Cobalt (and its compounds),grams,303268319.2440009
+air,Copper (and its compounds),grams,11662301211
+air,"Cresol (all isomers, and their salts)",grams,911512876
+air,"Cresol (mixed isomers, and their salts)",grams,359782000
+air,Cumene,grams,1131430146
+air,Cumene hydroperoxide,grams,49700
+air,Cyanides (ionic),grams,249469638
+air,Cyclohexane,grams,43339679414
+air,Cyclohexanol,grams,1342000
+air,Decabromodiphenyl oxide,grams,5044300
+air,Di-n-octyl phthalate,grams,6379100
+air,"Dibenz[a,h]acridine",grams,11147.693
+air,"Dibenz[a,h]anthracene",grams,40089526.394000016
+air,"Dibenz[a,j]acridine",grams,314627.41500000004
+air,"Dibenzo[a,e]fluoranthene",grams,3686.5999999999995
+air,"Dibenzo[a,e]pyrene",grams,54078.541
+air,"Dibenzo[a,h]pyrene",grams,66466
+air,"Dibenzo[a,i]pyrene",grams,16904484.32799999
+air,"Dibenzo[a,l]pyrene",grams,49265.3
+air,Dibutyl phthalate,grams,52872500
+air,Dichloromethane,grams,23094912214
+air,Dicyclopentadiene,grams,81718700
+air,Diethanolamine (and its salts),grams,1158654250
+air,Diethyl phthalate,grams,7000
+air,Dimethyl phthalate,grams,176271800
+air,Dimethyl sulphate,grams,70000
+air,Dimethylamine,grams,27549000
+air,Dimethylphenol (mixed isomers),grams,7851000
+air,Dioxins and furans - total,grams,802.8799039999951
+air,Diphenylamine,grams,4074000
+air,Ethyl acrylate,grams,159016644
+air,Ethylbenzene,grams,18899248839
+air,Ethylene,grams,54928673498
+air,Ethylene glycol,grams,6683405527
+air,Ethylene oxide,grams,402223400
+air,Ethylene thiourea,grams,4070000
+air,Fluoranthene,grams,969009457.1400001
+air,Fluorene,grams,189647432.8759998
+air,Fluorine,grams,409730400
+air,Formaldehyde,grams,45971416804
+air,Formic acid,grams,645873490
+air,HCFC-123 (all isomers),grams,39381000
+air,HCFC-124 (all isomers),grams,1856000
+air,HCFC-141b,grams,1075329400
+air,HCFC-142b,grams,8829607000
+air,HCFC-22,grams,1398870100
+air,Halon 1301,grams,235000
+air,Hexachlorobenzene,grams,261379.68723200005
+air,Hexachloroethane,grams,31000
+air,Hexavalent chromium (and its compounds),grams,37965640.76400009
+air,Hydrazine (and its salts),grams,3397390
+air,Hydrochloric acid,grams,273371770448
+air,Hydrogen cyanide,grams,2018091220
+air,Hydrogen fluoride,grams,83257465592
+air,Hydrogen sulphide,grams,73602581521
+air,Hydroquinone (and its salts),grams,63711
+air,"Indeno[1,2,3-cd]pyrene",grams,101958732.19800009
+air,Iron pentacarbonyl,grams,477000
+air,Isophorone diisocyanate,grams,4143
+air,Isoprene,grams,351103079.21300036
+air,Isopropyl alcohol,grams,44863561925
+air,Lead (and its compounds),grams,9428123668.631012
+air,Lithium carbonate,grams,12678200
+air,Maleic anhydride,grams,113425340
+air,Manganese (and its compounds),grams,5790275801
+air,Mercury (and its compounds),grams,97341862.96699984
+air,Methanol,grams,461644190921
+air,Methyl acrylate,grams,10245470
+air,Methyl ethyl ketone,grams,74019876214
+air,Methyl isobutyl ketone,grams,12813779971
+air,Methyl methacrylate,grams,1248887607
+air,Methyl tert-butyl ether,grams,1514447500
+air,Methylenebis(phenylisocyanate),grams,1674758863
+air,Molybdenum trioxide,grams,45070022
+air,"N,N-Dimethylaniline (and its salts)",grams,50740000
+air,N-Methyl-2-pyrrolidone,grams,1979125968
+air,N-Methylolacrylamide,grams,293021
+air,Naphthalene,grams,2539123527
+air,Nickel (and its compounds),grams,8374114163
+air,Nitrate ion in solution at pH >= 6.0,grams,744288129
+air,Nitrate ion in solution at pH >= 6.5,grams,22100000
+air,Nitric acid,grams,551457001
+air,Nitrilotriacetic acid (and its salts),grams,19039994
+air,Nitrogen oxides (expressed as nitrogen dioxide),grams,13873598019677
+air,Nonylphenol,grams,29698000
+air,Nonylphenol and its ethoxylates,grams,269015946.579
+air,Nonylphenol polyethylene glycol ether,grams,3850000
+air,"Nonylphenol, industrial",grams,429000
+air,Nonylphenoxy ethanol,grams,15636000
+air,Octylphenol and its ethoxylates,grams,2699000
+air,"PAHs, total unspeciated",grams,90015597.71299991
+air,PM10 - Particulate Matter <= 10 Micrometers,grams,3089229037024
+air,PM2.5 - Particulate Matter <= 2.5 Micrometers,grams,1165772219366
+air,Pentachloroethane,grams,65000
+air,Peracetic acid (and its salts),grams,182425791
+air,Perylene,grams,29170370.304000013
+air,Phenanthrene,grams,1901309122.7209992
+air,Phenol (and its salts),grams,10922111781
+air,Phosgene,grams,81000
+air,Phosphoric acid,grams,145737000
+air,Phosphorus (total),grams,4027438326
+air,Phosphorus (yellow or white only),grams,93988100
+air,Phthalic anhydride,grams,29122971
+air,Polymeric diphenylmethane diisocyanate,grams,1030742904
+air,Potassium bromate,grams,21000
+air,Propionaldehyde,grams,82744000
+air,Propylene,grams,23424071604
+air,Propylene oxide,grams,154599000
+air,Pyrene,grams,918153389.0360005
+air,Pyridine (and its salts),grams,6970900
+air,Quinoline,grams,2618178.9700000007
+air,Quinoline (and its salts),grams,4465100
+air,Selenium (and its compounds),grams,1196048686.8389988
+air,Silver (and its compounds),grams,32776049
+air,Sodium fluoride,grams,13996600
+air,Sodium nitrite,grams,112065500
+air,Styrene,grams,49687184079
+air,Sulphur dioxide,grams,25585539631176
+air,Sulphur hexafluoride,grams,669101000
+air,Sulphuric acid,grams,196031653297
+air,Tetrachloroethylene,grams,2607576864
+air,Tetracycline hydrochloride,grams,500
+air,Tetraethyl lead,grams,59016.700000000004
+air,Thallium (and its compounds),grams,4297564.171000001
+air,Thiourea,grams,50000
+air,Thorium dioxide,grams,235000
+air,Titanium tetrachloride,grams,14760800
+air,Toluene,grams,136712281540
+air,"Toluene-2,4-diisocyanate",grams,768444.26
+air,"Toluene-2,6-diisocyanate",grams,16791.86
+air,Toluenediisocyanate (mixed isomers),grams,27059553.782999996
+air,Total particulate matter,grams,7094999075553
+air,Total reduced sulphur (expressed as hydrogen sulphide),grams,131423837522
+air,Trichloroethylene,grams,11019618409
+air,Triethylamine,grams,425568555
+air,Vanadium (and its compounds),grams,88249898
+air,Vanadium (except when in an alloy) and its compounds,grams,2397969485
+air,Vanadium (fume or dust),grams,777071000
+air,Vinyl acetate,grams,5020764900
+air,Vinyl chloride,grams,286903958
+air,Vinylidene chloride,grams,1325000
+air,Volatile Organic Compounds (Total),grams,236371419019
+air,Volatile Organic Compounds (VOCs),grams,4753349655236
+air,Xylene (all isomers),grams,98373035188
+air,Xylene (mixed isomers),grams,54045986000
+air,Zinc (and its compounds),grams,18866342501
+air,Zinc (fume or dust),grams,87020000
+air,i-Butyl alcohol,grams,6270256677
+air,m-Cresol (and its salts),grams,5931000
+air,m-Xylene,grams,222140000
+air,"n,n-Dimethylformamide",grams,145510060
+air,n-Butyl alcohol,grams,23788528602
+air,n-Hexane,grams,110182769504
+air,n-Nonylphenol (mixed isomers),grams,2530000
+air,o-Cresol (and its salts),grams,11700000
+air,o-Dichlorobenzene,grams,14265300
+air,o-Xylene,grams,153534000
+air,"p,p'-Methylenebis(2-chloroaniline)",grams,21643700
+air,"p,p'-Methylenedianiline",grams,13000
+air,p-Cresol (and its salts),grams,3257000
+air,p-Dichlorobenzene,grams,198482583
+air,p-Phenylenediamine (and its salts),grams,749000
+air,p-Quinone,grams,0
+air,p-Xylene,grams,449970000
+air,sec-Butyl alcohol,grams,106199700
+air,tert-Butyl alcohol,grams,621739700
+all,"1,1,1,2-Tetrachloroethane",grams,1000
+all,"1,1,2,2-Tetrachloroethane",grams,49000
+all,"1,1,2-Trichloroethane",grams,1771800
+all,"1,1-Methylenebis(4-isocyanatocyclohexane)",grams,10700
+all,"1,2,4-Trichlorobenzene",grams,3272700
+all,"1,2,4-Trimethylbenzene",grams,197654163
+all,"1,2-Dichloroethane",grams,2360200
+all,"1,2-Dichloropropane",grams,55000
+all,"1,3-Butadiene",grams,8468181
+all,"1,4-Dioxane",grams,9147100
+all,"2,4-Dinitrotoluene",grams,900000
+all,"2,6-Di-t-butyl-4-methylphenol",grams,617800
+all,2-(2-Methoxyethoxy)ethanol,grams,162750
+all,2-Butoxyethanol,grams,94731602
+all,2-Ethoxyethanol,grams,874600
+all,2-Ethoxyethyl acetate,grams,1473000
+all,2-Mercaptobenzothiazole,grams,2997911
+all,2-Methoxyethanol,grams,152900
+all,2-Nitropropane,grams,375000
+all,"3,3'-Dichlorobenzidine dihydrochloride",grams,0
+all,4-tert-Octylphenol,grams,20000
+all,Acetaldehyde,grams,9037311
+all,Acetone,grams,35509000
+all,Acetonitrile,grams,7526200
+all,Acetophenone,grams,4514700
+all,Acrolein,grams,1929253
+all,Acrylamide,grams,3429320
+all,Acrylic acid (and its salts),grams,3565363
+all,Acrylonitrile,grams,10408200
+all,"Alkanes, C10-13, chloro",grams,0
+all,Allyl alcohol,grams,295400
+all,Aluminum (fume or dust only),grams,54759321
+all,Aluminum oxide (fibrous forms only),grams,23627768
+all,Ammonia (total),grams,845786462
+all,Ammonium nitrate (solution),grams,150000
+all,Ammonium sulfate (solution),grams,720000
+all,Aniline (and its salts),grams,84500
+all,Anthracene,grams,11461924
+all,Antimony (and its compounds),grams,23534327
+all,Arsenic (and its compounds),grams,3095000
+all,Asbestos,grams,587000
+all,Asbestos (friable form only),grams,6286000
+all,Benzene,grams,285593217
+all,Benzoyl chloride,grams,0
+all,Benzoyl peroxide,grams,1923726
+all,Benzyl chloride,grams,666100
+all,Biphenyl,grams,5973620
+all,Bis(2-ethylhexyl) adipate,grams,9277105
+all,Bis(2-ethylhexyl) phthalate,grams,17818093
+all,Bisphenol A,grams,812700
+all,Bromine,grams,1994900
+all,Bromomethane,grams,109700
+all,Butyl acrylate,grams,8417928
+all,Butyl benzyl phthalate,grams,2933190
+all,Butyraldehyde,grams,1031990
+all,C.I. Acid Green 3,grams,125000
+all,C.I. Basic Green 4,grams,10917
+all,C.I. Basic Red 1,grams,2400
+all,C.I. Food Red 15,grams,8200
+all,CFC-11,grams,654000
+all,CFC-114,grams,272000
+all,CFC-12,grams,840600
+all,Cadmium (and its compounds),grams,4417000
+all,Calcium fluoride,grams,16327264
+all,Carbon disulphide,grams,24913100
+all,Carbon tetrachloride,grams,1768100
+all,Carbonyl sulphide,grams,9088800
+all,Catechol,grams,310000
+all,Chlorine,grams,103485587
+all,Chlorine dioxide,grams,14899670
+all,Chloroacetic acid (and its salts),grams,893000
+all,Chlorobenzene,grams,3502600
+all,Chloroethane,grams,1189700
+all,Chloroform,grams,10882163
+all,Chloromethane,grams,1527700
+all,Chromium (and its compounds),grams,156029406
+all,Cobalt (and its compounds),grams,8170860
+all,Copper (and its compounds),grams,176221219
+all,"Cresol (all isomers, and their salts)",grams,13424206
+all,"Cresol (mixed isomers, and their salts)",grams,234000
+all,Cumene,grams,21999066
+all,Cumene hydroperoxide,grams,212400
+all,Cyanides (ionic),grams,26275132
+all,Cyclohexane,grams,227041757
+all,Cyclohexanol,grams,2144300
+all,Decabromodiphenyl oxide,grams,251400
+all,Di-n-octyl phthalate,grams,757700
+all,Dibutyl phthalate,grams,12535215
+all,Dichloromethane,grams,68299339
+all,Dicyclopentadiene,grams,12954000
+all,Diethanolamine (and its salts),grams,21746020
+all,Diethyl phthalate,grams,85000
+all,Dimethyl phthalate,grams,5859200
+all,Dimethylamine,grams,458000
+all,Dimethylphenol (mixed isomers),grams,2590000
+all,Diphenylamine,grams,703800
+all,Epichlorohydrin,grams,1596360
+all,Ethyl acrylate,grams,3855920
+all,Ethyl chloroformate,grams,100000
+all,Ethylbenzene,grams,243705773
+all,Ethylene,grams,26569501
+all,Ethylene glycol,grams,145855729
+all,Ethylene oxide,grams,15403980
+all,Fluorine,grams,404000
+all,Formaldehyde,grams,100525256
+all,Formic acid,grams,9245469
+all,HCFC-123 (all isomers),grams,425000
+all,HCFC-124 (all isomers),grams,1835500
+all,HCFC-141b,grams,1302000
+all,HCFC-142b,grams,3944900
+all,HCFC-22,grams,7037800
+all,Halon 1211,grams,9000
+all,Halon 1301,grams,165000
+all,Hydrazine (and its salts),grams,3411000
+all,Hydrochloric acid,grams,153150502
+all,Hydrogen cyanide,grams,4822060
+all,Hydrogen fluoride,grams,15550809
+all,Hydrogen sulphide,grams,85686451
+all,Hydroquinone (and its salts),grams,773000
+all,Isobutyraldehyde,grams,6000
+all,Isophorone diisocyanate,grams,1084300
+all,Isoprene,grams,784800
+all,Isopropyl alcohol,grams,295855384
+all,Lead (and its compounds),grams,42365000
+all,Lithium carbonate,grams,1441200
+all,Maleic anhydride,grams,18903697
+all,Manganese (and its compounds),grams,270121386
+all,Mercury (and its compounds),grams,29000
+all,Methanol,grams,456361388
+all,Methyl acrylate,grams,2173179
+all,Methyl ethyl ketone,grams,234713611
+all,Methyl isobutyl ketone,grams,91922817
+all,Methyl methacrylate,grams,23815417
+all,Methyl tert-butyl ether,grams,12139000
+all,Methylenebis(phenylisocyanate),grams,43748394
+all,Molybdenum trioxide,grams,17736576
+all,N-Methyl-2-pyrrolidone,grams,7201302
+all,N-Methylolacrylamide,grams,54365
+all,Naphthalene,grams,89737855
+all,Nickel (and its compounds),grams,104144411
+all,Nitrate ion in solution at pH >= 6.0,grams,23020705
+all,Nitrate ion in solution at pH >= 6.5,grams,730000
+all,Nitric acid,grams,52275358
+all,Nitrilotriacetic acid (and its salts),grams,6706000
+all,Nitroglycerin,grams,5339000
+all,Nonylphenol,grams,285000
+all,Nonylphenol and its ethoxylates,grams,6366493
+all,Nonylphenol nona(oxyethylene) ethanol,grams,200000
+all,Nonylphenol polyethylene glycol ether,grams,4568000
+all,"Nonylphenol, industrial",grams,715000
+all,Octylphenol and its ethoxylates,grams,2808480
+all,Peracetic acid (and its salts),grams,556300
+all,Phenol (and its salts),grams,46336655
+all,Phosgene,grams,1000
+all,Phosphoric acid,grams,14806000
+all,Phosphorus (total),grams,205545169
+all,Phosphorus (yellow or white only),grams,2233000
+all,Phthalic anhydride,grams,9646784
+all,Polymeric diphenylmethane diisocyanate,grams,21375336
+all,Propionaldehyde,grams,43000
+all,Propylene,grams,49870139
+all,Propylene oxide,grams,468100
+all,Pyridine (and its salts),grams,523000
+all,Quinoline (and its salts),grams,309100
+all,Selenium (and its compounds),grams,5458100
+all,Silver (and its compounds),grams,7870717
+all,Sodium fluoride,grams,311693
+all,Sodium nitrite,grams,8191948
+all,Styrene,grams,123603288
+all,Styrene oxide,grams,1579000
+all,Sulphur hexafluoride,grams,525000
+all,Sulphuric acid,grams,208196092
+all,Tetrachloroethylene,grams,25870902
+all,Tetracycline hydrochloride,grams,1600
+all,Titanium tetrachloride,grams,449100
+all,Toluene,grams,671678138
+all,"Toluene-2,4-diisocyanate",grams,659300
+all,"Toluene-2,6-diisocyanate",grams,7000
+all,Toluenediisocyanate (mixed isomers),grams,5422300
+all,Total reduced sulphur (expressed as hydrogen sulphide),grams,43283026
+all,Trichloroethylene,grams,27954010
+all,Triethylamine,grams,4520901
+all,Vanadium (and its compounds),grams,8317533
+all,Vanadium (except when in an alloy) and its compounds,grams,13500300
+all,Vanadium (fume or dust),grams,2161000
+all,Vinyl acetate,grams,23290400
+all,Vinyl chloride,grams,2268500
+all,Vinylidene chloride,grams,51000
+all,Volatile Organic Compounds (VOCs),grams,1000000
+all,Xylene (all isomers),grams,518617178
+all,Xylene (mixed isomers),grams,88199000
+all,Zinc (and its compounds),grams,241397675
+all,Zinc (fume or dust),grams,1990000
+all,i-Butyl alcohol,grams,69384324
+all,m-Xylene,grams,1230000
+all,"n,n-Dimethylformamide",grams,1995800
+all,n-Butyl alcohol,grams,122679680
+all,n-Hexane,grams,424967179
+all,n-Nonylphenol (mixed isomers),grams,689000
+all,o-Cresol (and its salts),grams,25000
+all,o-Dichlorobenzene,grams,1622000
+all,o-Phenylphenol (and salts),grams,3000
+all,o-Xylene,grams,1092000
+all,"p,p'-Methylenebis(2-chloroaniline)",grams,74580
+all,"p,p'-Methylenedianiline",grams,100000
+all,p-Cresol (and its salts),grams,100000
+all,p-Dichlorobenzene,grams,2847000
+all,p-Nitrophenol (and its salts),grams,0
+all,p-Phenylenediamine (and its salts),grams,2110800
+all,p-Xylene,grams,1400000
+all,sec-Butyl alcohol,grams,517870
+all,tert-Butyl alcohol,grams,1863600
+land,"1,2,4-Trimethylbenzene",grams,41147370
+land,"1,2-Dichloroethane",grams,1636000
+land,"1,3-Butadiene",grams,29600
+land,"1,4-Dioxane",grams,238000
+land,"2,4-Dinitrotoluene",grams,200000
+land,2-Butoxyethanol,grams,6274000
+land,"7H-Dibenzo[c,g]carbazole",grams,18
+land,Acenaphthene,grams,28711.556
+land,Acenaphthylene,grams,951423.1
+land,Acetaldehyde,grams,186770
+land,Acetone,grams,7568000
+land,Acetonitrile,grams,0
+land,Acetophenone,grams,377000
+land,Acrylonitrile,grams,6611275
+land,Aluminum (fume or dust only),grams,113222810
+land,Aluminum oxide (fibrous forms only),grams,70937000
+land,Ammonia (total),grams,9143822398
+land,Ammonium nitrate (solution),grams,30069000
+land,Ammonium sulfate (solution),grams,6243000
+land,Anthracene,grams,109304.6
+land,Antimony (and its compounds),grams,3075008
+land,Arsenic (and its compounds),grams,253923454.6659999
+land,Asbestos (friable form only),grams,764485000
+land,Benz[a]anthracene,grams,90447.82700000002
+land,Benzene,grams,210052605
+land,Benzo[a]pyrene,grams,82840.93000000001
+land,Benzo[b]fluoranthene,grams,10461.026
+land,Benzo[e]pyrene,grams,108719.20000000001
+land,Benzo[ghi]perylene,grams,88807.09999999998
+land,Benzo[j]fluoranthene,grams,9586
+land,Benzo[k]fluoranthene,grams,22907.6
+land,Biphenyl,grams,590000
+land,Bis(2-ethylhexyl) phthalate,grams,323000
+land,Bisphenol A,grams,10562074.499999998
+land,Butyl acrylate,grams,0
+land,Cadmium (and its compounds),grams,6430417.329999995
+land,Calcium fluoride,grams,956838500
+land,Carbon disulphide,grams,0
+land,Catechol,grams,662800
+land,Chlorine,grams,146956700
+land,Chloroform,grams,583000
+land,Chloromethane,grams,0
+land,Chromium (and its compounds),grams,4429286449
+land,Chrysene,grams,23007.300000000003
+land,Cobalt (and its compounds),grams,61700373.828
+land,Copper (and its compounds),grams,7704967077
+land,"Cresol (all isomers, and their salts)",grams,9700
+land,"Cresol (mixed isomers, and their salts)",grams,4000
+land,Cumene,grams,675800
+land,Cumene hydroperoxide,grams,0
+land,Cyanides (ionic),grams,523000
+land,Cyclohexane,grams,26327804
+land,Decabromodiphenyl oxide,grams,0
+land,"Dibenz[a,h]anthracene",grams,13263
+land,"Dibenz[a,j]acridine",grams,176
+land,"Dibenzo[a,i]pyrene",grams,92.103
+land,Dibutyl phthalate,grams,0
+land,Dichloromethane,grams,2401000
+land,Diethanolamine (and its salts),grams,127872636
+land,Dioxins and furans - total,grams,21.13979
+land,Diphenylamine,grams,1000
+land,Ethyl acrylate,grams,86890000
+land,Ethylbenzene,grams,37701554
+land,Ethylene,grams,483332
+land,Ethylene glycol,grams,176824718398
+land,Ethylene oxide,grams,0
+land,Fluoranthene,grams,159283.19999999995
+land,Fluorene,grams,262335.642
+land,Fluorine,grams,42572000
+land,Formaldehyde,grams,59983600
+land,Hexachlorobenzene,grams,403.7304710000004
+land,Hexavalent chromium (and its compounds),grams,2113190
+land,Hydrazine (and its salts),grams,296000
+land,Hydrochloric acid,grams,261925514
+land,Hydrogen fluoride,grams,540000
+land,Hydrogen sulphide,grams,31509432
+land,"Indeno[1,2,3-cd]pyrene",grams,31034.499999999996
+land,Isoprene,grams,0
+land,Isopropyl alcohol,grams,30052800
+land,Lead (and its compounds),grams,3948981874.2360005
+land,Maleic anhydride,grams,0
+land,Manganese (and its compounds),grams,7097797918
+land,Mercury (and its compounds),grams,949629.211
+land,Methanol,grams,3603492498
+land,Methyl ethyl ketone,grams,15357560
+land,Methyl isobutyl ketone,grams,3797700
+land,Methyl methacrylate,grams,1490000
+land,Methyl tert-butyl ether,grams,88000
+land,Methylenebis(phenylisocyanate),grams,15490900
+land,Molybdenum trioxide,grams,536000
+land,N-Methyl-2-pyrrolidone,grams,1110000
+land,Naphthalene,grams,6719000
+land,Naphthenic acid fraction compounds (and their salts),grams,243542
+land,Nickel (and its compounds),grams,1075967438
+land,Nitrate ion in solution at pH >= 6.0,grams,3525389102
+land,Nitrate ion in solution at pH >= 6.5,grams,2060000
+land,Nitric acid,grams,309745772
+land,Nitrilotriacetic acid (and its salts),grams,1660000
+land,Nonylphenol and its ethoxylates,grams,20720889.500000004
+land,Nonylphenol polyethylene glycol ether,grams,20000
+land,Octylphenol and its ethoxylates,grams,40315100
+land,"PAHs, total unspeciated",grams,774343
+land,Perylene,grams,35600.90099999999
+land,Phenanthrene,grams,885026.3809999998
+land,Phenol (and its salts),grams,6662000
+land,Phosgene,grams,42860000
+land,Phosphoric acid,grams,143791000
+land,Phosphorus (total),grams,5532091944
+land,Phosphorus (yellow or white only),grams,32679500
+land,Phthalic anhydride,grams,81000
+land,Polymeric diphenylmethane diisocyanate,grams,5939000
+land,Propylene,grams,447551
+land,Propylene oxide,grams,0
+land,Pyrene,grams,146704.28499999997
+land,Quinoline,grams,4.999999999999999
+land,Selenium (and its compounds),grams,2307441.5569999996
+land,Silver (and its compounds),grams,74508
+land,Sodium fluoride,grams,5520000
+land,Styrene,grams,34701200
+land,Sulphuric acid,grams,3251604270
+land,Tetrachloroethylene,grams,519000
+land,Thallium (and its compounds),grams,200765.11299999998
+land,Toluene,grams,242894856
+land,Toluenediisocyanate (mixed isomers),grams,0
+land,Total reduced sulphur (expressed as hydrogen sulphide),grams,843081200
+land,Trichloroethylene,grams,8000
+land,Vanadium (and its compounds),grams,56687000
+land,Vanadium (except when in an alloy) and its compounds,grams,213329300
+land,Vanadium (fume or dust),grams,1300000
+land,Vinyl acetate,grams,14293000
+land,Vinyl chloride,grams,4500000
+land,Xylene (all isomers),grams,155541705
+land,Xylene (mixed isomers),grams,67598000
+land,Zinc (and its compounds),grams,18609577181
+land,i-Butyl alcohol,grams,48300
+land,n-Butyl alcohol,grams,84445200
+land,n-Hexane,grams,1767409407
+land,o-Xylene,grams,228000
+land,"p,p'-Methylenebis(2-chloroaniline)",grams,0
+land,p-Dichlorobenzene,grams,900000
+land,sec-Butyl alcohol,grams,0
+land,tert-Butyl alcohol,grams,17000
+water,"1,1,2-Trichloroethane",grams,31000
+water,"1,2,4-Trimethylbenzene",grams,9350731
+water,"1,2-Dichloroethane",grams,1955000
+water,"1,3-Butadiene",grams,264000
+water,"1,4-Dioxane",grams,115307600
+water,1-Nitropyrene,grams,0
+water,"2,4-Dichlorophenol (and its salts)",grams,661000
+water,"2,4-Dinitrotoluene",grams,10552000
+water,2-Butoxyethanol,grams,25468700
+water,2-Methoxyethanol,grams,1120000
+water,3-Methylcholanthrene,grams,1900
+water,5-Methylchrysene,grams,3944.1000000000004
+water,"7,12-Dimethylbenz[a]anthracene",grams,1851
+water,"7H-Dibenzo[c,g]carbazole",grams,13386.8
+water,Acenaphthene,grams,563754.7649999998
+water,Acenaphthylene,grams,158945.008
+water,Acetaldehyde,grams,469063743
+water,Acetone,grams,353788000
+water,Acetonitrile,grams,525000
+water,Acetophenone,grams,2000
+water,Acrolein,grams,18833000
+water,Acrylamide,grams,2395000
+water,Acrylonitrile,grams,312000
+water,Aluminum (fume or dust only),grams,697124233
+water,Aluminum oxide (fibrous forms only),grams,190500
+water,Ammonia (total),grams,1101291360791
+water,Ammonium nitrate (solution),grams,1206350000
+water,Ammonium sulfate (solution),grams,2450300000
+water,Anthracene,grams,1366313.5619999997
+water,Antimony (and its compounds),grams,185475244
+water,Arsenic (and its compounds),grams,759392412.8190014
+water,Asbestos (friable form only),grams,0
+water,Benz[a]anthracene,grams,185536.63500000007
+water,Benzene,grams,2165113086
+water,Benzo[a]pyrene,grams,234249.89900000003
+water,Benzo[b]fluoranthene,grams,179742.106
+water,Benzo[e]pyrene,grams,203143.12799999997
+water,Benzo[ghi]perylene,grams,301005.234
+water,Benzo[j]fluoranthene,grams,16657.800999999996
+water,Benzo[k]fluoranthene,grams,74594.96
+water,Biphenyl,grams,245000
+water,Bis(2-ethylhexyl) adipate,grams,11800000
+water,Bis(2-ethylhexyl) phthalate,grams,2000
+water,Bisphenol A,grams,2045645.2000000002
+water,CFC-114,grams,408000
+water,CFC-12,grams,1056000
+water,Cadmium (and its compounds),grams,94460218.97800004
+water,Calcium fluoride,grams,1153732721
+water,Carbon disulphide,grams,25911000
+water,Carbon tetrachloride,grams,11363000
+water,Catechol,grams,42859
+water,Chlorine,grams,5103946890
+water,Chlorine dioxide,grams,43471600
+water,Chloroacetic acid (and its salts),grams,1714000
+water,Chloroethane,grams,22370000
+water,Chloroform,grams,46693927
+water,Chloromethane,grams,4625400
+water,Chromium (and its compounds),grams,426338743
+water,Chrysene,grams,147897.217
+water,Cobalt (and its compounds),grams,595025502.5220009
+water,Copper (and its compounds),grams,61996159275
+water,"Cresol (all isomers, and their salts)",grams,80848862
+water,"Cresol (mixed isomers, and their salts)",grams,4261000
+water,Cumene,grams,478000
+water,Cyanides (ionic),grams,177542757
+water,Cyclohexane,grams,19353100
+water,Decabromodiphenyl oxide,grams,0
+water,"Dibenz[a,h]acridine",grams,2445.8
+water,"Dibenz[a,h]anthracene",grams,114279.44
+water,"Dibenz[a,j]acridine",grams,16810
+water,"Dibenzo[a,e]fluoranthene",grams,0
+water,"Dibenzo[a,e]pyrene",grams,9644.11
+water,"Dibenzo[a,h]pyrene",grams,1986
+water,"Dibenzo[a,i]pyrene",grams,79468.61000000002
+water,"Dibenzo[a,l]pyrene",grams,330
+water,Dibutyl phthalate,grams,20783000
+water,Dichloromethane,grams,583000
+water,Diethanolamine (and its salts),grams,134596000
+water,Dimethylamine,grams,304000
+water,Dioxins and furans - total,grams,29.77014300000001
+water,Ethylbenzene,grams,57675608
+water,Ethylene,grams,323000
+water,Ethylene glycol,grams,13403442358
+water,Ethylene oxide,grams,23000
+water,Fluoranthene,grams,897065.1749999997
+water,Fluorene,grams,2691022.9430000014
+water,Fluorine,grams,1539451477
+water,Formaldehyde,grams,1636098207
+water,Formic acid,grams,3000
+water,HCFC-122 (all isomers),grams,1052000
+water,HCFC-123 (all isomers),grams,100526000
+water,HCFC-124 (all isomers),grams,8231000
+water,HCFC-22,grams,911000
+water,Hexachlorobenzene,grams,205.37325700000002
+water,Hexavalent chromium (and its compounds),grams,27431424.179
+water,Hydrazine (and its salts),grams,51625930
+water,Hydrochloric acid,grams,553702201
+water,Hydrogen cyanide,grams,252200
+water,Hydrogen fluoride,grams,28901000
+water,Hydrogen sulphide,grams,1765954893
+water,"Indeno[1,2,3-cd]pyrene",grams,215959.51000000004
+water,Iron pentacarbonyl,grams,97000
+water,Isoprene,grams,0
+water,Isopropyl alcohol,grams,224381080
+water,Lead (and its compounds),grams,1079873550.3060014
+water,Maleic anhydride,grams,0
+water,Manganese (and its compounds),grams,50760326000
+water,Mercury (and its compounds),grams,8738015.287999984
+water,Methanol,grams,73333339127
+water,Methyl ethyl ketone,grams,168505456
+water,Methyl isobutyl ketone,grams,121547461
+water,Methyl methacrylate,grams,0
+water,Methyl tert-butyl ether,grams,679000
+water,Methylenebis(phenylisocyanate),grams,0
+water,Molybdenum trioxide,grams,8051915
+water,Naphthalene,grams,82773758
+water,Naphthenic acid fraction compounds (and their salts),grams,75052865
+water,Nickel (and its compounds),grams,1648597737
+water,Nitrate ion in solution at pH >= 6.0,grams,1407536404126
+water,Nitrate ion in solution at pH >= 6.5,grams,2553903000
+water,Nitric acid,grams,319901200
+water,Nitrilotriacetic acid (and its salts),grams,0
+water,Nitroglycerin,grams,49130000
+water,Nonylphenol,grams,29495000
+water,Nonylphenol and its ethoxylates,grams,874665335.3000001
+water,Nonylphenol polyethylene glycol ether,grams,91180000
+water,Nonylphenoxy ethanol,grams,5135000
+water,"PAHs, total unspeciated",grams,2280490.0599999996
+water,Perylene,grams,307483.168
+water,Phenanthrene,grams,6900047.187
+water,Phenol (and its salts),grams,887892380
+water,Phosphoric acid,grams,1929054000
+water,Phosphorus (total),grams,151304949691
+water,Phosphorus (yellow or white only),grams,69580700
+water,Polymeric diphenylmethane diisocyanate,grams,0
+water,Propylene,grams,2706100
+water,Propylene oxide,grams,0
+water,Pyrene,grams,695732.3869999998
+water,Quinoline,grams,101549.586
+water,Selenium (and its compounds),grams,2605679779.600998
+water,Silver (and its compounds),grams,10888764
+water,Sodium fluoride,grams,317223000
+water,Sodium nitrite,grams,214790100
+water,Styrene,grams,11015000
+water,Sulphuric acid,grams,96377814323
+water,Tetrachloroethylene,grams,663000
+water,Thallium (and its compounds),grams,14425040.025999993
+water,Toluene,grams,1325032924
+water,Toluenediisocyanate (mixed isomers),grams,0
+water,Total reduced sulphur (expressed as hydrogen sulphide),grams,14365039900
+water,Trichloroethylene,grams,163000
+water,Triethylamine,grams,21900000
+water,Vanadium (and its compounds),grams,7897692
+water,Vanadium (except when in an alloy) and its compounds,grams,4276420500
+water,Vanadium (fume or dust),grams,3540000
+water,Vinyl chloride,grams,1877300
+water,Xylene (all isomers),grams,326342001
+water,Xylene (mixed isomers),grams,16496000
+water,Zinc (and its compounds),grams,10007008033
+water,Zinc (fume or dust),grams,57934000
+water,i-Butyl alcohol,grams,6440000
+water,"n,n-Dimethylformamide",grams,239000
+water,n-Butyl alcohol,grams,42725000
+water,n-Hexane,grams,100913115
+water,o-Xylene,grams,64000
+water,"p,p'-Methylenebis(2-chloroaniline)",grams,0
+water,p-Nonylphenol polyethylene glycol ether,grams,1670000
+water,p-Phenylenediamine (and its salts),grams,1886000
+water,sec-Butyl alcohol,grams,0
+water,tert-Butyl alcohol,grams,9316000
